@@ -9,16 +9,16 @@
 
 | | |
 |---|---|
-| **Nama** | `[ISI NAMA KAMU]` |
-| **NIM** | `[ISI NIM KAMU]` |
-| **Kelas** | `[ISI KELAS KAMU]` |
-| **Dosen** | `[ISI NAMA DOSEN]` |
+| **Nama** | `[Najwa Hikmatyar]` |
+| **NIM** | `[152024162]` |
+| **Kelas** | `[CC]` |
+
 
 ---
 
 ## 📌 Deskripsi
 
-Repository ini berisi implementasi empat klasifikasi arsitektur komputer paralel berdasarkan **Flynn Taxonomy** yang diperkenalkan oleh Michael Flynn pada tahun 1966. Setiap klasifikasi diimplementasikan menggunakan Python dengan output yang menampilkan cara kerja masing-masing arsitektur secara langkah demi langkah.
+Repository ini berisi implementasi empat klasifikasi arsitektur komputer paralel berdasarkan **Flynn Taxonomy**. Setiap klasifikasi diimplementasikan menggunakan Python dengan output yang menampilkan cara kerja masing-masing arsitektur secara langkah demi langkah.
 
 ---
 
@@ -81,8 +81,8 @@ Banyak prosesor menjalankan instruksi berbeda pada data yang berbeda secara bers
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/[USERNAME]/[NAMA-REPO].git
-cd [NAMA-REPO]
+git clone https://github.com/Chwyperz/Tugas-1-Komputer-Parallel-dan-Sistem-Terdistribusi.git
+cd Tugas-1-Komputer-Parallel-dan-Sistem-Terdistribusi
 ```
 
 ### 2. Buat dan aktifkan virtual environment
@@ -122,7 +122,4 @@ python mimd.py
 
 ---
 
-## 📝 Catatan
 
-- File `mimd.py` **wajib** dijalankan dengan blok `if __name__ == "__main__":` agar `multiprocessing` bekerja dengan benar, terutama di Windows.
-- Output pada `simd.py` mungkin tampil **tidak berurutan** — ini adalah hal yang normal dan justru membuktikan bahwa proses berjalan secara paralel.
